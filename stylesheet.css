@@ -1,15 +1,21 @@
 .container1 {
-
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.75em;
 	color: lightgrey;
 	background-color: black;
 	position: fixed;
-	margin-left: -100px;
-	margin-right: 1000px;
-	padding-left: 200px;
-	padding-right: 10000px;
-	padding-bottom: 25px;
+	width: 1500px;
+	height: 200px;
+	top: 15%;
+	left: 10%;
+	margin-top: -115px;
+	margin-left: -250px; 
+	padding-bottom: 20px;
+
+
 
 }
+
 
 body{
 
@@ -21,21 +27,23 @@ body{
 
 .container2 {
 
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.25em;
 	color: lightgrey;
-	background-color: black;
-	padding-top: 20px;
-	margin-left: -100px;
-	margin-right: 1000px;
-	padding-left: 200px;
-	padding-right: 10000px;
-	padding-bottom: 50px;
-	display: inline-block;
+	background-color: rgba(000, 000, 000, 0.87);
+	margin-left: -25px;
+	padding-left: 100px;
+	margin-right: -25px;
+	padding-right: 125px;
+	margin-top: -25px;
+
 
 }
 
 table{
-
-	background: black;
+	display: inline-block;
+	background-color: rgba(000, 000, 000, 0.99);
 	border: black;
 	border: 0px;
 }
+
