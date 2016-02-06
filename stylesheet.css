@@ -3,7 +3,7 @@
 
 
 .container1 {
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Cinzel', serif;
 	font-size: 1.75em;
 	color: lightgrey;
 	background-color: black;
@@ -30,8 +30,7 @@ body{
 }
 
 .container2 {
-
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Cinzel', serif;
 	font-size: 1.25em;
 	color: lightgrey;
 	background-color: rgba(000, 000, 000, 0.87);
