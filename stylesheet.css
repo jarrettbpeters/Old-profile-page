@@ -43,14 +43,14 @@ body {
 /*Features Section*/
 .features {
 
-	position: center;
+	/*position: center;*/
 	padding: 5% 0;
 }
 
 .features p {
 	font-family: 'Muli', 'Helvetica', sans-serif;
 	position: center;
-	/*text-align: center;*/
+	text-align: center;
 	color: white;
 	font-size: 1.2em;
 	padding-top: 10px;
