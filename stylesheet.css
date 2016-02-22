@@ -1,52 +1,103 @@
+/* Document */
+body {
 
-
-
-
-.container1 {
-	font-family: 'Cinzel', serif;
-	font-size: 1.75em;
-	color: lightgrey;
 	background-color: black;
-	position: fixed;
-	width: 1500px;
-	height: 200px;
-	top: 15%;
-	left: 10%;
-	margin-top: -115px;
-	margin-left: -250px; 
-	padding-bottom: 20px;
-
-
-
 }
+/*Jumbotron / Header */
+.jumbotron {
 
-
-body{
-
-	background: url(http://s21.postimg.org/9o6b90cl3/desktop.jpg);
-	background-position: center;
+	background-image: url('https://lh3.googleusercontent.com/U8K405Gm_S_gMMGtooBw6WUu0OWZPA-mvfsJgt2BKYfkHmZcjOFRTrDcuM2vc037KbTVuXoTJPcUBiJJl3TOuhd36cue6qPOJ156R0xKYxnP2RrnuoVzZaNjVTijUH0ymKjMRlbT0gvaY6H9g_YdBLcgbhUwoNJr6Sz9rCrDvWUP60HQz2OEK3TaDqhtGUumA2B9qCxeqH6Zqc45bG3TLu8ZHOve_bGrqSXBQ4ltt6HBapZvLIWNF5_J0ft2zlqyJtdbP_QPswEiGbNe0FHufKr2AeFWSIUordmddmRfRb27qaz_tKCJY29HsfNcwKzL4-sg8bjdVk3cTa6ArvBDqA9d-7Ah57xd6JkQ-nGPnl74wVraMewzNcsJWNmaP9b0Ye4fDTov-QdK-I089CU1GSTUL2IGMQH-taQtFjnCfHaU6L5ybrHAKTQyfYE8IArhdMNNWgVd8bFLfmMuZt6XYHeNwH-O4IwmDZKBgqnL_C1fHSgGzAFEQuDNpkfKE8KegBUrvhxEvFTBOJinHiKSfHXff2f6KhPbZ4zufel23_poW3xyurX2fuB1jhObGa_hk5hk=w1280-h270-no');
+	padding: 20%;
 	background-repeat: no-repeat;
+	background-size: cover;
+	/*width: 100%;*/
+	/*margin-top: -40px;*/
 	background-attachment: fixed;
+	/*background-position: center -238px;*/*/
 }
 
-.container2 {
-	font-family: 'Cinzel', serif;
-	font-size: 1.25em;
-	color: lightgrey;
-	background-color: rgba(000, 000, 000, 0.87);
-	margin-left: -25px;
-	padding-left: 100px;
-	margin-right: -25px;
-	padding-right: 125px;
-	margin-top: -25px;
+.jumbotron h1 {
+	font-family: 'Raleway','Helvetica', sans-serif;
+	position: absolute;
+	top: 18;
+	left: 0;
+	padding-left: 20px;
+	color: #F7FAFE;
+
+}
+
+.mission {
+
+	background-color: black;
+	color: #F7FAFE;
+	margin-top: 0px;
+}
+
+.mission h3 {
+	font-family: 'Muli', 'Helvetica', sans-serif;
+	padding: 5% 10%;
+	text-align: center;
+	position: center;
+}
+
+/*Features Section*/
+.features {
+
+	position: center;
+	padding: 5% 0;
+}
+
+.features p {
+	font-family: 'Muli', 'Helvetica', sans-serif;
+	position: center;
+	text-align: center;
+	color: white;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
+/*footer {
+	background-color: grey;
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 2%;
+	float: right;
+}
+
+footer p {
+	float: left;
+	padding: 2%;
 
 
 }
+
+footer a,
+footer p {
+	font-family: 'Muli', 'Helvetica', sans-serif;
+	color: #fff;
+	vertical-align: middle;
+}*/
 
 table{
 	display: inline-block;
-	background-color: rgba(000, 000, 000, 0.99);
+	background-color: rgba(000, 000, 000, 000);
 	border: black;
 	border: 0px;
 }
 
+
+@media screen and (max-width: 776px) {
+	.features img{
+	max-width: 90%;
+	margin: auto;
+
+	}
+
+
+}
