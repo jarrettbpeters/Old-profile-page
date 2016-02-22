@@ -7,13 +7,13 @@ body {
 .jumbotron {
 
 	background-image: url('http://s11.postimg.org/m4ip6xjzn/20150629_131016.jpg');
-	padding: 20%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	margin-top: -40px;
-	background-attachment: fixed;
-	background-position: center -238px;
+	/*padding: 20%;*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	/*width: 100%;*/
+	/*margin-top: -40px;*/
+	/*background-attachment: fixed;*/
+	/*background-position: center -238px;*/
 }
 
 .jumbotron h1 {
