@@ -44,13 +44,13 @@ body {
 .features {
 
 	position: center;
-	padding: 50% 0;
+	padding: 5% 0;
 }
 
 .features p {
 	font-family: 'Muli', 'Helvetica', sans-serif;
 	position: center;
-	text-align: center;
+	/*text-align: center;*/
 	color: white;
 	font-size: 1.2em;
 	padding-top: 10px;
